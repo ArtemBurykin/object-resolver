@@ -1,0 +1,30 @@
+{
+  "name": "avesystems/object-resolver",
+  "description": "Symfony bundle providing service for merging received object to it's persisted copy",
+  "keywords": ["Symfony"],
+  "type": "library",
+  "license": "proprietary",
+  "authors": [],
+  "require": {
+    "php":"^7.0",
+
+    "symfony/framework-bundle":"^3.0|^4.0",
+    "symfony/security":"^3.0|^4.0",
+    "doctrine/orm": "^2.6",
+    "doctrine/doctrine-bundle": "^1.8"
+  },
+  "require-dev": {
+    "ext-sqlite" : "*",
+    "phpunit/phpunit": "^5.4",
+    "friendsofphp/php-cs-fixer": "^2.10",
+    "phpunit/phpcov": "~3.0"
+  },
+  "config": {
+    "bin-dir": "bin"
+  },
+  "autoload": {
+    "psr-4": {
+      "AveSystems\\ObjectResolverBundle\\": ""
+    }
+  }
+}

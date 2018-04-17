@@ -1,0 +1,6 @@
+vendor
+.idea
+Tests/app/cache
+Tests/app/logs
+bin
+.php_cs.cache

@@ -1,0 +1,10 @@
+services:
+    AveSystems\ObjectResolverBundle\ObjectResolver:
+        public: true
+        arguments:
+            - '@doctrine.orm.entity_manager'
+            - '@annotation_reader'
+            - '%object_resolver.serialized_name_annotation%'
+
+    object_resolver:
+         alias: AveSystems\ObjectResolverBundle\ObjectResolver
